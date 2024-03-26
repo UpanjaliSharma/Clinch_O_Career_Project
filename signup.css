@@ -1,0 +1,57 @@
+#d1{
+    background-color: #F2F2F1;
+    height: auto;
+    width: 400px;
+    opacity: .8;
+    border-radius: 10px;
+    margin-left: 900px;
+    margin-top: 20px;
+}
+#t1,#t2{
+    text-align: center;
+    width: 100%;
+}
+#d2{
+    background-image: url("Pics/lib.jpg");
+    background-size: 800px 700px;
+    background-color: red;
+    left: 50px;
+    top: 70px;
+    height: 700px;
+    width: 800px;
+    position: absolute;
+}
+.d0{
+    background-color: white;
+    height: auto;
+    width: 100%;
+    top: 0px;
+    border-radius: 10px;
+}
+.b{
+    font-size: 18px;
+    background-color: white;
+    border: 0px;
+    color:black;
+    margin: 4px 5px;
+    border-radius: 20px;
+}
+.b:hover{
+    background-color: black;
+    color: white;
+}
+#sub,#res{
+       border: 1px solid black;
+       border-radius: 3px;
+       color: black;
+       background-color: aliceblue;
+       font-size: 15px;
+}
+#sub:hover{
+    background-color: black;
+    color: aliceblue;
+}
+#res:hover{
+    background-color: black;
+    color: aliceblue;
+}

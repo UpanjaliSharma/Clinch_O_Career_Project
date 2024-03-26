@@ -1,0 +1,178 @@
+      *{
+                margin: 0px;
+                padding: 0px;
+            }
+#main{
+    background-color: whitesmoke;
+    width: 90%;
+}
+            ul li{
+                display: block;
+                padding: 1px;
+                
+            }
+            ul li:active{
+                display: block;
+                background-color: azure;
+                margin: 2px;
+                padding: 2px;
+                color: brown;
+                
+            }
+            ul li a{
+                display: block;
+                background-color: #efc9c9;
+                padding: 2px;
+                color: black;
+                
+            }
+            ul li a:hover{
+                display: block;
+                background-color: azure;
+                margin: 2px;
+                padding: 2px;
+                color: brown;
+            }
+            #board1{
+    height: 20px;
+    width:23%;
+    position: relative;
+    float: left;
+    margin: 5px;
+}
+            #header{
+                background-color: #DE8E8E;
+                height: 50px;
+                width: 100%;
+                position: fixed;
+                z-index: 2; 
+            }
+             .menu{
+                 min-width:150px; 
+                 width:10%;
+                 height: 650px;
+                 background-color: white;
+                 position: absolute;
+                 margin-top: 52px;
+                 border: 2px solid #c2c2c2;
+            }
+            .active{
+                text-decoration: none;
+                font-size: 20px;
+                list-style-type: none;
+            }
+            #nav1{
+                background-color:whitesmoke;
+            }
+            #dashboard{
+                width: 100%;
+                background-color: #c2c2c2;
+                position: relative;
+                margin-top: 1px;
+                margin-left:12px;
+                width: 100%;
+                height: 50px;
+                border: 2px solid #efc9c9;
+                min-width: 50%;
+                min-height: 30px;
+            }
+            #info{
+                background-color: #c2c2c2;
+                position: relative;
+                margin-left: 12px;
+                margin-top: 2px;
+                width: 100%;
+                height: 50px;
+                border: 2px solid #efc9c9;
+                min-width: 80%;
+                min-height: 30px;
+            }
+            #slide{
+                position: relative;
+                width:90.68%;
+                top: 50px;
+                left:154px;
+                        
+            }
+            .myslides{
+                height:100px;
+                width:100%;
+            }
+            #notice{
+                width: 90%;
+                height: 500px;
+                position: absolute;
+                margin-left: 10.5%;
+                margin-top: 52px; 
+                min-width: 60%;
+            }
+          /*  #board1{
+                background-color: #c2c2c2;
+                width: 65.2%;
+                height: 310px;
+                position: absolute;
+                margin-top: 1px; 
+                margin-left: 12px;
+                border: 2px solid #efc9c9;
+                min-height: 150px;
+                min-width: 50%;
+            } 
+            #board2{
+                position: absolute;
+                background-color: #c2c2c2;
+                width: 28.5%;
+                height: 100px;
+                margin-left: 72.2%;
+                margin-top: 32px;
+                border: 2px solid #efc9c9;
+            }
+            #board3{
+                position: absolute;
+                background-color: #c2c2c2;
+                width: 28.5%;
+                height: 150px;   
+                margin-top: 136px;
+                margin-left: 72.2%;
+                border: 2px solid #efc9c9;
+            }
+            #board4{
+                position: absolute;
+                background-color: #c2c2c2;
+                width: 28.5%;
+                height: 100px;   
+                margin-top: 282px;
+                margin-left: 72.2%;
+                border: 2px solid #efc9c9;
+            } */
+            #logout{
+                float: right;
+                margin-right: 100px;
+                margin-top: -35px;
+                font-size: 25px;
+                height: 50px;
+                width: 120px;
+                border-collapse: collapse;
+                border: 2px;
+                background-color: #DE8E8E;
+                border-radius: 10px;
+                
+            }
+            #logout:hover{
+                float: right;
+                margin-right: 100px;
+                margin-top: -32px;
+                font-size: 25px;
+                height: 50px;
+                width: 120px;
+                border-collapse: collapse;
+                border: 2px;
+                background-color: whitesmoke;
+                border-radius: 10px;
+                color: white;
+            }
+            #logimg{
+                height: 20px;
+                width: 20px;
+                margin-left: 4px;
+                margin-top: 3px;
+            }

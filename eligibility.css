@@ -1,0 +1,11 @@
+#company{
+    position: relative;
+    float: left;
+    background-color: #62768F;
+    margin: 100px auto;
+    margin-left: 20px;
+    height: 400px;
+    width: 300px;
+    opacity: .8;
+    border-radius: 10px;
+}

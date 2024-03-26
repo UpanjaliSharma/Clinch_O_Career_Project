@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#head{
+    background-color: #DE8E8E;
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    z-index: 500;
+}
+#divh1{
+    height: 20px;
+    width: 23%;
+    margin: 5px;
+    position: relative;
+    float: left;
+}
+#divh2{
+    height: 20px;
+    margin: 5px;
+    width: 23%;
+    position: relative;
+    float: left;
+}
+#divh3{
+    height: 20px;
+    width:23%;
+    position: relative;
+    float: left;
+    margin: 5px;
+    
+}
+#divh4{
+    height: 20px;
+    margin: 5px;
+    width: 20%;
+    position: relative;
+    float: left;
+    margin-left: 200px;
+}
+#header{
+    top:30px;
+    width:100%;
+    height:90px;
+    background-color:white;
+    position:fixed;
+    z-index: 500;
+}
+#logo{
+    margin:1%;
+    position: absolute;
+    min-width:150px;
+    width:15%;
+}
+#house{
+    top: 1%;
+    left: 40%;
+    position: absolute;
+    min-width:150px;
+    width:25%;
+}
+#menu{
+    margin: 25px 0px 0px 300px;
+    position: fixed;
+    
+}
+#menu ul{
+    list-style: none;
+    position:inherit;
+    padding-left: 10px;
+}
+#menu ul li{  
+    background-color:#f9f5f5;
+    font-size:200%;
+    min-width:200px;
+    line-height:35px;
+    text-align: center;
+    float:left;
+    position: relative;
+}
+#menu ul li a{
+    display:block;
+    text-decoration:none;
+    color:whitesmoke;
+   
+}
+#menu ul li a:hover{
+    color:black;
+    background-color: #f9f5f5;
+}
+#login{
+    position: absolute;
+    right: 10%;
+    top: 30px;
+    width:70px;
+    height:30px;
+    background-color: #DE8E8E;
+    border: none;
+    font-size: 20px;
+    font-family: serif;
+}
+#signup{
+    position: absolute;
+    right: 5%;
+    top: 30px;
+    width:70px;
+    height:30px;
+    background-color: #DE8E8E;
+    border: none;
+    font-size: 20px;
+    font-family: serif;
+}
+#login:hover,#signup:hover{
+    background-color: #cccccc;
+}
+#content
+{
+    text-align: center;
+}
+#slots
+{
+        margin top: auto;
+}
+#footer{
+    background-color: #efc9c9;
+    position: relative;
+    height: 220px;
+    width: 100%;
+    margin:1px;
+    float: left;
+    top: 10px;
+}
+#div1{
+    height: 200px;
+    width: 30%;
+    position: relative;
+    margin: 2px;
+    float: left;
+    margin-left: 20px;
+    font-size: 25px;
+}
+#div2{
+    height: 200px;
+    width:30%;
+    position: relative;
+    margin: 2px;
+    float: left;
+    margin-left: 20px;
+    font-size: 25px;
+}
+#div3{
+    height: 200px;
+    width:30%;
+    position: relative;
+    margin: 2px;
+    float: left;
+    margin-left: 30px;
+    font-size: 25px;
+}
+#slide{
+    position: relative;
+    width:100%;
+    top: 10px;
+}
+.myslides{
+    height:200px;
+    width:100%;
+}
+#quickcontact{
+    border-collapse: collapse;
+}
+input[type=text],input[type=email],input[type=tel],input[type=password],textarea {
+    width: 100%;
+    min-height: 30px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    resize: vertical;
+}
+select {
+    font-size: 20px;
+    width: 100%;
+    min-height: 30px;
+    padding: 2px;
+    padding-left: 80px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    resize: vertical;
+}
+.b1{
+    background-color:#DE8E8E;
+    border: none;
+    font-size: 20px;
+    font-family: serif;
+    margin-top: 2px;
+    margin-left: 20px;
+}
+.b1:hover{
+    font-size: 25px;
+    color: blue;
+    text-decoration-line: underline;
+}
